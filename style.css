@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    color: red;
+}
+
+header {
+    font-family: 'Roboto Slab', serif;
+    background-color: maroon;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+form {
+    font-size: 1em;
+    color: black;
+    border: 1px solid #ccc;
+}
