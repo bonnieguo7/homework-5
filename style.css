@@ -1,7 +1,6 @@
 body {
-    margin: 0;
     font-family: 'Roboto', sans-serif;
-    color: red;
+    color: maroon;
 }
 
 header {
@@ -12,8 +11,34 @@ header {
     text-align: center;
 }
 
-form {
+.login-form {
     font-size: 1em;
     color: black;
     border: 1px solid #ccc;
+    width: 500px;
+    margin: 65px auto;
+    padding: 35px 35px 35px 35px;
+}
+
+.search {
+    margin: 100px;
+    color: pink;
+    
+}
+
+#semester {
+
+}
+
+#course-code {
+    float: left;
+    
+}
+
+#course-title {
+    float: right;
+}
+
+#search-button {
+
 }
