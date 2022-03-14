@@ -1,6 +1,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     color: maroon;
+
 }
 
 header {
@@ -18,16 +19,11 @@ header {
     width: 500px;
     margin: 65px auto;
     padding: 35px 35px 35px 35px;
-}
-
-.search {
-    margin: 100px;
-    color: pink;
-    
+    background-color: pink;
 }
 
 #semester {
-
+    margin: 50px;
 }
 
 #course-code {
