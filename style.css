@@ -22,19 +22,20 @@ header {
     background-color: pink;
 }
 
-#semester {
-    margin: 50px;
+.side-button {
+  height: 50px;
+  width: 150px;
+  background-color: #Ce437b;
+  color: white;
+  text-align: center;
+  line-height:45px; 
+  /*padding-botton: 100px;*/
+  margin-left: 50px;
+  margin-bottom: 250px;
 }
 
-#course-code {
-    
-    
-}
+.calendar {
+  margin-top: 100px;
 
-#course-title {
-    
-}
 
-#search-button {
 
-}
