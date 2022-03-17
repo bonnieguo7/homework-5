@@ -1,41 +1,68 @@
 body {
-    font-family: 'Roboto', sans-serif;
-    color: maroon;
-
+  font-family: 'Roboto', sans-serif;
+  color: maroon;
+  background-color: #FFBDBD;
 }
 
 header {
-    font-family: 'Roboto Slab', serif;
-    background-color: maroon;
-    color: white;
-    padding: 10px;
-    text-align: center;
+  font-family: 'Roboto Slab', serif;
+  background-color: maroon;
+  color: white;
+  padding: 10px;
+  text-align: center;
 }
 
 .login-form {
-    font-size: 1em;
-    color: black;
-    border: 1px solid #ccc;
-    width: 500px;
-    margin: 65px auto;
-    padding: 35px 35px 35px 35px;
-    background-color: pink;
+  font-size: 1em;
+  color: black;
+  border: 1px solid #ccc;
+  width: 500px;
+  margin: 65px auto;
+  padding: 35px 35px 35px 35px;
+  background-color: pink;
 }
+
+.main-box {
+  margin: 65px 65px 65px 300px;
+  background-color: #FF7676;
+}
+
+.main-rect {
+  height: 800px;
+}
+
+.main-box input[type=text] {
+  margin-top: 8px;
+  margin-right: 16px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+  color: #FF7676;
+}
+
 
 .side-button {
-  height: 50px;
-  width: 150px;
-  background-color: #Ce437b;
+  height: 64px;
+  width: 210px;
+  background-color: #FF7676;
   color: white;
   text-align: center;
-  line-height:45px; 
-  /*padding-botton: 100px;*/
-  margin-left: 50px;
-  margin-bottom: 250px;
+  line-height: 60px; 
+  left: 20px;
+  top: 35%;
+  position: absolute;
 }
 
-.calendar {
-  margin-top: 100px;
+.shopping {
+  top: 50%;
+}
+
+.help {
+  top: 65%;
+}
+
+
 
 
 
