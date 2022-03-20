@@ -25,22 +25,37 @@ header {
 .main-box {
   margin: 65px 65px 65px 300px;
   background-color: #FF7676;
+  position: relative;
 }
 
 .main-rect {
   height: 800px;
+  position: relative;
 }
 
-.main-box input[type=text] {
-  margin-top: 8px;
-  margin-right: 16px;
-  border: none;
-  margin-top: 8px;
-  margin-right: 16px;
-  font-size: 17px;
+.topbar {
+  height: 150px;
+  margin: 75px 75px 75px;
+  
+}
+
+.topbar input[type=text] {
+  margin-left: 20%;
+  margin-top: 50px;
+  width: 350px;
+  height: 50px;
+  font-size: 22px;
+  text-align: center;
   color: #FF7676;
 }
 
+#category {
+  margin-top: 50px;
+  font-size: 22px;
+  color: #FF7676;
+  width: 200px;
+  height: 50px;
+}
 
 .side-button {
   height: 64px;
@@ -60,6 +75,17 @@ header {
 
 .help {
   top: 65%;
+}
+
+.column {
+  float: left;
+  padding: 0 10px;
+  width: 20%;
+}
+
+.card {
+  text-align: center;
+  
 }
 
 
